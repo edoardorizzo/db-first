@@ -16,4 +16,7 @@ trasmission: VARCHAR(255), NULL,
 kw: VARCHAR(255), NULL,
 cilinder: VARCHAR(255), NULL,
 color: VARCHAR(255), NULL,
+length: SMALLINT, NULL
+height: SMALLINT, NULL
+width: SMALLING, NULL
 description: TEXT, NULL, 
