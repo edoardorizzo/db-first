@@ -4,9 +4,9 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 
 */
 
-id: BIGINT, PK, 
-brand: VARCHAR(255), PK,
-model: VARCHAR(255), PK,
+id: BIGINT, PK, NOTNULL
+brand: VARCHAR(255), PK, NOTNULL
+model: VARCHAR(255),
 fuel: VARCHAR(255), PK,
 price: FLOAT(6,4), PK,
 in-stock: TINYINT, NULL, 
